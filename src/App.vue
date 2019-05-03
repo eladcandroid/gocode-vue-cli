@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">My Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
@@ -27,5 +27,16 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+.add-to-cart {
+  background-color: rgba(171, 171, 247, 0.794);
+  color: #000;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+.menu {
+  margin: 30px;
 }
 </style>
